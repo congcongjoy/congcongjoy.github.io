@@ -6,9 +6,6 @@ categories: document
 tag: 教程
 ---
 
-* content
-{:toc}
-
 
 云跟帖			{#yungentie}
 ====================================
