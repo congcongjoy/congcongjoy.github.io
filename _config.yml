@@ -1,26 +1,24 @@
-# Site settings
-name: Less Or More
-email: luoyan35714@126.com
-author: Freud Kang
-url: http://www.hifreud.com
-resume_site: http://www.hifreud.com/Resume.io/
-github: https://github.com/congcongjoy/
-baseurl: ''
-description: Actually, less is more!
-meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
-motto: It's our wits that make us men.
-banner: 学而不思则罔，思而不学则殆。
+title: "Jekyll-Theme-MDUI"
+description: "A Jekyll theme based on MDUI"
+url: 
+baseurl: ""
+author: "KeJun"
+paginate: 5
+paginate_path: "/blog/page:num/"
 
-#permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
-paginate: 10
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
-
-github_username: congcongjoy
-
-# Build settings
-markdown: kramdown
-
-baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
-
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
+  - Gemfile
+  - Gemfile.lock
+  - jekyll-theme-mdui.gemspec
+  - LICENSE.txt
+  - README.md
+  - vendor
+  - docs
